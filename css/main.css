@@ -1,0 +1,411 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+	.contain {width: 100%;
+			  height: auto;
+			  background-color: cadetblue;
+			 }
+	
+	
+
+	.head	 {width: 100%;
+			  height: 700px;
+			  background:url(../images/images/sarajevo_01.jpg);
+			 }
+
+
+	
+	.menu	 {width: 100%;
+			  height: 70px;
+			  background-color: none
+			 }
+
+
+
+
+			.logo {width: 50%;
+	   			   height: 70px;
+	   			   background-color:;
+				   float: left}
+
+
+.logopic {width: 30%;
+		  height: 70px;
+		  background-color: none; float: left;
+
+		  }
+
+.logopic img {margin-left: 50px; margin-top: 20px}
+
+
+
+.danhtext {width: 60%;
+		  height: 70px;
+		  background-color:none; float: right;
+		  
+		  }
+
+.danhtext input{width: 200px ; height: 30px ; margin-top: 20px;
+				opacity: 0.3
+}
+
+
+
+
+			.menubar {width: 50%;
+	   			      height: 70px;
+	   			      background-color:transparent;
+					  float: right;
+					  display: flex;
+					  align-items: center;
+					  justify-content: flex-end;
+}
+
+			
+
+
+			.menubar ul li { 
+				padding:20px;
+				
+				margin-right: 30px;
+				float: left;
+				
+				list-style: none;}
+
+
+.menubar ul li a {text-decoration: none; color: aliceblue}
+
+
+.menubar ul li a:hover {color: antiquewhite}
+
+	.ct1	 {width: 100%;
+			  height: 530px;
+			  background-color: transparent;
+			
+			  padding-top: 100px;
+			  text-align: center;
+			  justify-content: center;
+			  align-items: center}
+	
+
+.fa {padding:0px px 0px 10px;
+	 color: darkgrey;
+	 margin-left: 30px}
+
+.fa:hover {color: aliceblue}
+
+
+
+
+
+
+
+	.ct2	 {width: 100%;
+			  height: 440px;
+			  background-color: antiquewhite
+			 }
+	
+			.nd1	{width: 100%; height: 70px; background-color: ;
+					
+					padding-top: 30px;
+					justify-content: center;
+					align-items: center}
+
+					.nd1 font {padding-left: 700px}
+
+
+
+					.icon1 {width: 300px; height: 50px; background-color: none;
+							margin-left: 620px}
+
+
+
+
+			.nd2	{width: 100%; height: 300px; background-color: antiquewhite;
+					
+						margin-top: 50px}
+
+					.nd2a  {width: 400px; height: 250px; background-color: none;
+							margin-top: 20px; position: relative;
+
+							float: left;
+							margin-left: 80px}
+
+					.ndnho {width: 70%; height: 250px; background-color: none; float: right;}
+
+					.ndnho h3 {color: cornflowerblue}
+
+
+					.icon2 {width: 20% ; height: 80px; background-color: antiquewhite;
+
+							border-radius: 50px;
+							border:solid cornflowerblue;
+							
+							margin-left: 20px;
+							justify-content: center; 
+							display: flex; 
+							align-items: center;
+
+
+							position: absolute; top: 25px}
+
+
+					.icon2 i {margin-left: 0px; color: blue}
+
+
+
+
+
+
+
+	.ct3	 {width: 100%;
+			  height: 180px;
+			  background-color: white;
+
+			  text-align: center;
+			  display: flex;
+			  justify-content: center;
+			  font-size: 25px;
+			  align-items: center}
+	
+
+
+
+
+	.phone	 {width: 100%;
+			  height: 700px;
+			  background-color: white; display: flex}
+
+
+
+
+.nd3 {width: 30%; height: 700px; background-color: white;
+
+
+	  float: left}
+
+
+		.nd3a {width: 350px ; height: 200px; background-color: none;
+
+			   position: relative}
+
+
+			 .nd3b {width: 20% ; height: 70px; background-color: antiquewhite;
+
+					float: left;
+
+					border-radius: 50px;
+					border: solid;
+
+					display: flex; 
+				 
+				 	justify-content: center; 
+				 
+				 	align-items: center;
+
+					position: absolute; left: 20px; top: 25px}
+
+.nd3b i {margin: 0 auto}
+
+
+
+
+
+ 			 	.nd3c {width: 70% ; height: 200px; background-color: none;
+
+					float: right}
+
+
+
+.nd4 {width:40%; height: 700px; background-color: white;
+
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  margin-top: -60px}
+
+.nd4 img {transition: all 0.1s linear; opacity: 0.5s}
+
+.nd4 img:hover {
+
+
+				webkit-transform: scale(1.3);
+  				transform: scale(1.3);}
+
+
+
+
+.nd5 {width: 30%; height: 700px; background-color: white;
+
+
+	  float: right}
+
+
+
+
+	.ct4	 {width: 100%;
+			  height: 220px;
+			  background-color: none;
+
+
+			  justify-content: center;
+			  align-items: center;
+			  text-align: center;
+				
+
+			  font-size: 25px}
+
+
+.ct6 {width: 100%; height: 100px; background-color: none;
+
+
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center}
+
+
+.ct6 ul li {list-style: none; float: left; margin-left: 50px;
+
+			padding: 0px}
+
+
+.ct6 ul li a {text-decoration: none ; color:black; font-size: 20px;}
+
+.ct6 ul li:hover a {background-color: cornflowerblue; color: aliceblue;
+
+					padding: 10px; border-radius: 10px}
+
+
+
+
+
+
+	.pic	 {width: 100%;
+			  height: 510px;
+			  background-color: darkgreen}
+
+
+
+.pica {width: 100%; height: 255px; background-color: aqua;
+
+	   display: flex;}
+
+
+.pica1 {width: 25%; height: 255px; background-color: aqua; }
+.pica2 {width: 25%; height: 255px; background-color: aqua; }
+.pica3 {width: 25%; height: 255px; background:url(../images/a2.jpg)}
+
+.pica3 {transition: all 0.1s linear ; opacity: 0.5;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;}
+
+.pica3 p {opacity: 1 ; color: black; font-size: 20px }
+
+.pica3:hover  {opacity: 1}
+
+.pica3:hover p {opacity: 0}
+
+.pica4 {width: 25%; height: 255px; background-color: aqua; }
+
+
+
+
+
+
+.picb {width: 100%; height: 255px; background-color: mediumaquamarine;
+
+	   display: flex}
+
+
+.picb1 {width: 25%; height: 255px; background-color: aliceblue}
+
+.picb2 {width: 25%; height: 255px; background-color: aliceblue}
+
+.picb3 {width: 25%; height: 255px; background-color: aliceblue}
+
+.picb4 {width: 25%; height: 255px; background-color: aliceblue}
+
+
+	.ct5	 {width: 100%;
+			  height: 250px;
+			  background-color:aliceblue}
+
+	.if2	 {width: 100%;
+			  height: 250px;
+			  background-color: aliceblue;
+
+
+			 display: flex;
+			 justify-content: center;
+			 align-items: center;
+			 }
+
+.if1	{width: 200px;
+		 height: 230px;
+		 background-color: blue;
+		 margin: 20px;
+		 position: relative}
+
+.name {width: 150px; height: 50px; background-color:hsla(0,15%,12%,0.88);
+	   position: absolute;
+	   left: 25px;
+	   top: 200px;
+	   justify-content: center; 
+		align-items: center; display: flex;
+	   visibility:hidden;}
+
+
+
+.if1:hover .name  {visibility: visible;}
+
+
+
+
+	.number	 {width: 100%;
+			  height: 300px;
+			  background:url(../images/b4.jpg);
+			  background-size: cover;
+			  background-attachment: fixed;
+			  }
+
+.n1 {width: 100%;
+	 height: 150px;
+	 background-color: black;
+	 opacity: 0.5;
+
+
+	 display: flex;
+			  justify-content: center;
+			  align-items: center}
+
+
+
+.n2 {width: 100%;
+	 height: 150px;
+	 background-color: black; opacity: 0.5;
+	 display: flex;
+	 }
+
+.n3 {width: 100px; height: 70px; background-color: NONE;
+	 margin: 150px; margin-top: 0px; }
+
+
+
+.n4 {width: 100%; height: 200px; background-color: aliceblue;
+
+	 justify-content: center;
+	 display: flex;
+	 text-align: center;
+	 align-items: center}
+
+
+	.contact	 {width: 100%;
+			  height: 400px;
+			  background-color: aliceblue }
+
+
